@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "./header";
 import Frame from "./frame";
-import background from "./documents/Gradient.png"
+import ProductsHeader from "./product";
+import Roadmap from "./roadmap";
+// import background from "./documents/Gradient.png"
 
 
 const Home = () => {
@@ -12,6 +14,11 @@ const Home = () => {
                 <Header />
                 <Frame />
             </div>
+            <div>
+                <ProductsHeader />
+
+            </div>
+            <Roadmap />
 
         </div>
     )
