@@ -8,7 +8,7 @@ const TokenGrid = () => {
 
     useEffect(() => {
         const onScroll = () => {
-            if (window.scrollY > 100) { // Trigger the animation when the scroll is more than 100px from the top
+            if (window.scrollY > 1500) {
                 setIsVisible(true);
             } else {
                 setIsVisible(false);
