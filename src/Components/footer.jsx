@@ -3,8 +3,8 @@ import { FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white p-4 flex justify-between items-center p-20">
-            <div className="font-bold text-xl">
+        <footer className="bg-black text-white p-4 flex justify-between items-center ">
+            <div className="font-bold text-xl px-88">
                 Join our <span className="text-yellow-400">Community</span>
             </div>
             <div className="flex">

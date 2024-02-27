@@ -43,7 +43,7 @@ const TokenGrid = () => {
             <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {tokens.map((token, index) => (
                     <div key={index} className=" border-2 border-yellow-600-500 bg-gray-900 bg-opacity-90 rounded-lg overflow-hidden shadow-lg p-5 ">
-                        <img src={token2} alt={token.tokenName} className="w-28" />
+                        <img src={token2} alt={token.tokenName} className="w-28 transform hover:scale-105" />
                         <div className="p-5">
                             <h3 className="text-xl text-white font-bold mb-2">{token.tokenName}</h3>
                             <p className="text-white">Symbol: {token.symbol}</p>
