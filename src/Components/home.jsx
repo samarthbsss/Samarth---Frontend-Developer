@@ -3,6 +3,7 @@ import Header from "./header";
 import Frame from "./frame";
 import ProductsHeader from "./product";
 import Roadmap from "./roadmap";
+import TokenGrid from "./token";
 // import background from "./documents/Gradient.png"
 
 
@@ -19,6 +20,7 @@ const Home = () => {
 
             </div>
             <Roadmap />
+            <TokenGrid />
 
         </div>
     )
