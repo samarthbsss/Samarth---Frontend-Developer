@@ -4,6 +4,7 @@ import Frame from "./frame";
 import ProductsHeader from "./product";
 import Roadmap from "./roadmap";
 import TokenGrid from "./token";
+import Footer from "./footer";
 // import background from "./documents/Gradient.png"
 
 
@@ -19,8 +20,9 @@ const Home = () => {
                 <ProductsHeader />
 
             </div>
-            <Roadmap />
+            {/* <Roadmap /> */}
             <TokenGrid />
+            <Footer />
 
         </div>
     )
